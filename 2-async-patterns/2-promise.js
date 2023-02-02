@@ -15,3 +15,6 @@ const getText = (path) => {
 getText("./content/first.txt")
   .then((result) => console.log(result))
   .catch((err) => console.log(err));
+
+// '.then' method is executed immediately after the promise is resolved where 'result' is the resolved value.
+// '.catch' method is used if promise is rejected where 'err' is the reject reason?
